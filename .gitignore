@@ -34,3 +34,5 @@ MANIFEST
 *.ipynb_checkpoints
 *.ipynb:Zone.Identifier
 
+venv/
+segment_model/

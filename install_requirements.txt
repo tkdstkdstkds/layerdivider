@@ -1,0 +1,6 @@
+1. use Administrator permission to execute powershell.
+default powershell permission is Restricted, we need set it to be Unrestricted for executing install.ps1
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+2. powershell execute install.ps1
+if have erroe when Downloading segment model to ./segment_model/sam_vit_h_4b8939.pth, just ignore.
+3. run_gui.ps1
