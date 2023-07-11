@@ -8,6 +8,7 @@ from ldivider.ld_convertor import rgb2df, df2rgba
 
 import gradio as gr
 import huggingface_hub
+import torch
 import onnxruntime as rt
 import copy
 from PIL import Image
